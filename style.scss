@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #E6E6FA;
 }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -24,7 +25,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -109,11 +109,16 @@ header{
 .text{
     color: white;
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     h1{
         font-size: 56px;
+        font-weight: 500;
     }
     h2{
         font-size: 48px;
+        font-weight: 500;
     }
     p{
         font-size: 24px;
@@ -127,7 +132,7 @@ header{
             -ms-border-radius: 5px;
             -o-border-radius: 5px;
             height: 60px;
-            width: auto;
+            width: 160px;
             font-size: 24px;
             padding-inline: 8px;
     }
@@ -200,10 +205,14 @@ header{
     margin-top: 100px;
 }
 .articl{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     color: white;
     margin-top: -30px;
     h2{
         font-size: 48px;
+        font-weight: 500;
     }
     p{
         font-size: 24px;
@@ -211,8 +220,12 @@ header{
 }
 .articl1{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     h2{
         font-size: 48px;
+        font-weight: 500;
     }
     p{
         font-size: 24px;
@@ -226,11 +239,16 @@ header{
     padding-top: 330px;
     height: 800px;
     margin-top: -110px;
+    background-repeat: no-repeat;
 }   
 .looking{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     color: white;
     h2{
         font-size: 48px;
+        font-weight: 500;
     }
     p{
         font-size: 24px;
@@ -245,7 +263,7 @@ header{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     height:60px;
-    width: auto;
+    width: 200px;
     font-size: 24px;
     margin-top: 50px;
     padding-inline: 8px;
@@ -259,8 +277,12 @@ header{
     gap: 50px;
     height: 500px;
     .testimo{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
         h2{
             font-size: 48px;
+            font-weight: 500;
         }
         p{
             font-size: 24px;
@@ -282,7 +304,8 @@ footer{
         h3{
             margin: 0px;
             font-size: 32px;
-            font-weight: normal;
+            font-weight: 400
+            ;
         }
         p{
             font-size: 24px;
@@ -302,14 +325,14 @@ footer{
         font-size: 24px;
         h3{
             font-size: 32px;
-            font-weight: lighter;
+            font-weight: 500;
         }
     }
     .subscribe{
         margin-top: -50px;
         h3{
             font-size: 32px;
-            font-weight: lighter;
+            font-weight: 500;
         }
     }
 }
